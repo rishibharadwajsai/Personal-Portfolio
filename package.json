@@ -13,6 +13,7 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.2",
+    "@vercel/analytics": "^1.4.1",
     "astro": "^4.16.18",
     "flowbite": "^2.4.1",
     "framer-motion": "^11.3.24",
