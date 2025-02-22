@@ -21,29 +21,50 @@ import Layout from "../layouts/Layout.astro";
           concepts into impactful solutions, reflecting my commitment to
           excellence and creativity in every endeavor.
         </p>
-
-        <button
-          type="button"
-          class="my-2 text-white know-btn font-light rounded-lg text-sm px-3 py-0 text-center inline-flex items-center"
-        >
-          <a href="/About">Know about me</a>
-
-          <svg
-            class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 14 10"
+        <div class="md:space-x-2">
+          <button
+            type="button"
+            class="my-2 text-white know-btn font-light rounded-lg text-sm px-3 py-0 text-center inline-flex items-center"
           >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 5h12m0 0L9 1m4 4L9 9"></path>
-          </svg>
-        </button>
+            <a href="/About">Know about me</a>
 
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="my-2 text-white know-btn font-light rounded-lg text-sm px-3 py-0 text-center inline-flex items-center"
+          >
+            <a href="/Projects">See my projects</a>
+
+            <svg
+              class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+            </svg>
+          </button>
+        </div>
         <MainSocialMedia />
       </div>
     </center>
@@ -92,8 +113,8 @@ import Layout from "../layouts/Layout.astro";
 
     .know-btn {
       border-radius: 16px;
-      box-shadow: 0px 0px 30px rgba(240, 235, 235, 0.468);
-      border: 1px solid rgba(255, 255, 255, 0.68);
+      box-shadow: 0px 0px 30px rgba(240, 235, 235, 0.228);
+      border: 1px solid rgba(255, 255, 255, 0.354);
       transition: transform 0.3s ease-in-out;
     }
 
