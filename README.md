@@ -23,7 +23,7 @@ This portfolio is more than just a personal website—it's a digital narrative o
 
 ### 🌍 Live Demo
 
-Check out the live version of my portfolio: [rishibharadwajsai.vercel.app](https://rishibharadwajsai.vercel.app/)
+Check out the live version of my portfolio: [rishibharadwajsai.netlify.app](https://rishibharadwajsai.netlify.app/)
 
 ### 🚧 Future Enhancements
 
