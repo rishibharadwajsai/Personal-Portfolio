@@ -14,7 +14,7 @@
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^6.0.0",
     "@vercel/analytics": "^1.4.1",
-    "astro": "^5.15.6",
+    "astro": "^5.15.9",
     "flowbite": "^2.4.1",
     "framer-motion": "^11.3.24",
     "tailwindcss": "^3.4.7",
